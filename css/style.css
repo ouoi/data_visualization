@@ -1,0 +1,12 @@
+@charset "utf-8";
+
+body { padding: 30px; }
+header input.form-control { display: inline-block;width: 200px; }
+.content { position: relative;display: inline-block;margin: 40px 20px; }
+.axis path, .axis line { fill: none;stroke: #000;shape-rendering: crispEdges; }
+path.line { fill: none;stroke-width: 1px; }
+.infobox { display: none;position: absolute;top: 0px;left: 0px;margin: 200px auto;padding: 5px 10px;border: 1px solid #000;border-radius: 4px;background: RGBA(255, 255, 255, 0.8);z-index: 9999; }
+.bar { fill: steelblue; }
+.bar:hover { fill: brown; }
+.bars .bar { fill: black; }
+.brush .extent { stroke: #fff;fill-opacity: .125;shape-rendering: crispEdges; }
